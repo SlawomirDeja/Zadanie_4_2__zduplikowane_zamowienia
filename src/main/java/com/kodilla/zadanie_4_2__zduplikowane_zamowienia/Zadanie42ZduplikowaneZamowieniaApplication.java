@@ -15,9 +15,12 @@ public class Zadanie42ZduplikowaneZamowieniaApplication {
 
         orders.add(2);
         orders.add(4);
+        orders.add(4);
         orders.add(6);
         orders.add(8);
         orders.add(10);
+
+        for (Integer order: orders) System.out.println(order);
     }
 
 }
